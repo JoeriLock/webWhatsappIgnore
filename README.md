@@ -1,7 +1,7 @@
 # webWhatsappIgnore
 Removes message from people you dislike in group chats
 
-# how to sue
+# How to use
 Download a plugin to inject the javascript into the webpage.
 I use https://chrome.google.com/webstore/detail/javascript-injector/ejnccfcackblkelbafbolcpjfpcmbplg
 
@@ -14,3 +14,7 @@ Update the list of persons on the top of file with the names of your contacts.
 ]
 
 Click update and relax
+
+
+# TODO:
+Also remove chain message (as these do not have the name of the person right above it)
