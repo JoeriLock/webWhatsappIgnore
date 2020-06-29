@@ -17,4 +17,4 @@ Click update and relax
 
 
 # TODO:
-Also remove chain message (as these do not have the name of the person right above it)
+Sometimes removes alle messages after running into an error
