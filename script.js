@@ -5,19 +5,22 @@ people = [
 function removePeople(){
 	people.forEach(function(person){
 		elements = getAllMessageFrom(person);
-		elements.forEach(element => parentElement.parentElement.parentElement.parentElement.remove());
+		elements.forEach(element => element.remove());
 	}) 
 }
 
 
 function getAllMessageFrom(person){
-	messages = document.querySelectorAll('._2a1Yw._1OmDL._3FXB1');
+	messages = document.querySelectorAll('.FMlAw.FdF4z._3Whw5');
 	elements = [];
 	for (i = 0; i < messages.length; i++) {
       if(messages[i].innerText == person){
-      	elements.push(messages[i]);
-      	messages[i].parentElement.parentElement.parentElement.parentElement.remove()
-
+      	wholeMsg = messages[i].closest(".message-in")
+      	elements.push(wholeMsg);
+      	while(!wholeMsg.nextElementSibling.lastElementChild.classList.contains('_1dvTE')){
+      		elements.push(wholeMsg.nextElementSibling);
+      		wholeMsg = wholeMsg.nextElementSibling;
+      	}
       }
     }
     return elements;
