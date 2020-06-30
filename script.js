@@ -1,5 +1,6 @@
 people = [
-	"Ruben Synergia"
+	"person1",
+	"person2"
 ]
 
 function removePeople(){
@@ -17,7 +18,7 @@ function getAllMessageFrom(person){
       if(messages[i].innerText == person){
       	wholeMsg = messages[i].closest(".message-in")
       	elements.push(wholeMsg);
-      	while(!wholeMsg.nextElementSibling.lastElementChild.classList.contains('_1dvTE')){
+      	while(wholeMsg.nextElementSibling && !wholeMsg.nextElementSibling.lastElementChild.classList.contains('_1dvTE')){
       		elements.push(wholeMsg.nextElementSibling);
       		wholeMsg = wholeMsg.nextElementSibling;
       	}
