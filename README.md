@@ -13,6 +13,10 @@ Update the list of persons on the top of file with the names of your contacts.
   "Person2"
 ]
 
+This script also removes stickers, you can turn this on or off
+> removeStickers = 1; // remove all stickers
+> removeStickers = 0; // Keep stickers 
+
 Click update and relax
 
 
