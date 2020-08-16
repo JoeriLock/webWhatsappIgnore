@@ -1,7 +1,6 @@
 people = [
-  "Ruben Synergia",
-"Maarten Robert Wulp, van der Wulp, van der",
-"Seraphin Rodriguez Rodriguez"
+  "Sir talksalot",
+"Boring mc snorring"
 ]
 
 removeStickers = 1;
