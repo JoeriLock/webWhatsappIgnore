@@ -22,3 +22,4 @@ Click update and relax
 
 # TODO:
 Sometimes removes alle messages after running into an error
+Remove messages that are reactions on removed message
